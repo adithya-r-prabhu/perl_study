@@ -57,3 +57,8 @@ say "replaced string is $long_string";
 $a ="hello";
 say "repeated string is ", $a x 2;
 # repeated string is hellohello
+
+
+my $letter ="c";
+say "next letter is ",++$letter;
+# next letter is d
